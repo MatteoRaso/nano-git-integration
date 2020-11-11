@@ -1,7 +1,7 @@
-#Improved Git integration in GNU nano
+# Improved Git integration in GNU nano
 A bunch of macros I wrote because manually using Git with the execute command kind of sucks and having to exit GNU nano just to use Git is kind of inefficent.
 
-##What are the macros?
+## What are the macros?
 
 - `M-?` opens up a new buffer
 - `M-!` shows you the git status in a new buffer
@@ -11,6 +11,6 @@ A bunch of macros I wrote because manually using Git with the execute command ki
 - `M-3` uses the contents of a buffer as a message and runs `git commit`
 - `M-4` uses the contents of a buffer as the commit ID and runs `git revert`
 
-##How to install
+## How to install
 
 Just replace your nanorc with this one.
